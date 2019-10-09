@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <navbar />
-    <v-content>
+    <v-content class="white">
       <Home />
     </v-content>
   </v-app>
@@ -22,3 +22,15 @@ export default {
   })
 };
 </script>
+
+<style scoped>
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+/* body {
+  font-family: "Open Sans", sans-serif;
+} */
+</style>
