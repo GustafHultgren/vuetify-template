@@ -12,7 +12,14 @@
     <section class="pa-4 my-4">
       <h1 class="grey--text text--darken-3 text-center">Features</h1>
       <v-layout row justify-center wrap class="mt-4">
-        <v-card v-for="feature in features" :key="feature.title" elevation="1" outlined width="360" class="pa-3 mx-5 text-center">
+        <v-card
+          v-for="feature in features"
+          :key="feature.title"
+          elevation="1"
+          outlined
+          width="360"
+          class="pa-3 mx-5 text-center"
+        >
           <v-layout column align-center>
             <v-avatar size="140" color="primary">
               <v-icon size="96" dark>{{feature.icon}}</v-icon>
@@ -25,14 +32,23 @@
     </section>
     <section class="white--text" :style="{background: $vuetify.theme.themes['light'].primary}">
       <v-container>
-        <div style="height: 170px"></div>
-        <h1 class="mb-2">Our Mission</h1>
-        <p style="max-width: 400px">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptatem distinctio rerum. Fugiat maiores ab eos mollitia nemo corporis consequuntur labore ipsam excepturi ipsa fugit provident, tenetur praesentium minus beatae?
-        </p>
-        <p style="max-width: 400px">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptatem distinctio rerum.
-        </p>
+        <v-layout>
+          <v-layout column>
+            <div style="height: 170px"></div>
+            <h1 class="mb-2">Our Mission</h1>
+            <p
+              style="max-width: 400px"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptatem distinctio rerum. Fugiat maiores ab eos mollitia nemo corporis consequuntur labore ipsam excepturi ipsa fugit provident, tenetur praesentium minus beatae?</p>
+            <p
+              style="max-width: 400px"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptatem distinctio rerum.</p>
+          </v-layout>
+          <v-layout column align-content-center justify-center style="min-height: 100%">
+            <!-- <v-avatar size="340" style="border-color: white; border-width: 2px; border-style: solid"> -->
+                <v-img contain height="300" width="300" max-height="300" max-width="300" src="../assets/mission-image.svg" />
+            <!-- </v-avatar> -->
+          </v-layout>
+        </v-layout>
       </v-container>
     </section>
   </v-container>
@@ -44,7 +60,7 @@ export default {
     features: [
       { title: "Secure", body: "Feature body", icon: "mdi-fingerprint" },
       { title: "Feature 2", body: "Feature body", icon: "mdi-account-circle" },
-      { title: "Feature 3", body: "Feature body", icon: "mdi-account-circle" },
+      { title: "Feature 3", body: "Feature body", icon: "mdi-account-circle" }
     ]
   })
 };
