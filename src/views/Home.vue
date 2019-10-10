@@ -12,10 +12,10 @@
     <section class="pa-4">
       <h1 class="grey--text text--darken-3 text-center">Features</h1>
       <v-layout row justify-space-around wrap class="mt-4">
-        <v-card v-for="feature in features" :key="feature.title" width="400" class="pa-3 text-center">
+        <v-card v-for="feature in features" :key="feature.title" outlined width="360" class="pa-3 text-center">
           <v-layout column align-center>
-            <v-avatar size="78" color="primary">
-              <v-icon size="48" dark>{{feature.icon}}</v-icon>
+            <v-avatar size="140" color="primary">
+              <v-icon size="96" dark>{{feature.icon}}</v-icon>
             </v-avatar>
             <h4 class="my-2">{{feature.title}}</h4>
             <div class="body-2">{{feature.body}}</div>
