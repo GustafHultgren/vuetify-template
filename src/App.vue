@@ -28,7 +28,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 /* body {
   font-family: "Open Sans", sans-serif;

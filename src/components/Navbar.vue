@@ -1,6 +1,12 @@
 <template>
   <nav>
-    <v-toolbar flat absolute width="100%" class="white--text" style="background: transparent">
+    <v-toolbar
+      flat
+      absolute
+      width="100%"
+      class="white--text"
+      style="background: transparent"
+    >
       <v-app-bar-nav-icon color="white"></v-app-bar-nav-icon>
       <v-toolbar-title>Vuetify</v-toolbar-title>
       <v-spacer />
@@ -19,5 +25,4 @@
 export default {};
 </script>
 
-<style>
-</style>
+<style></style>

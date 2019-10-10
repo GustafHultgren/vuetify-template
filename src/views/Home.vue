@@ -2,11 +2,19 @@
   <v-container fluid class="pa-0">
     <div class="block"></div>
     <div class="img-wrapper">
-      <img src="https://stripe.com/img/v3/home/app-illustrations/catawiki.svg" alt="hello" />
+      <img
+        src="https://stripe.com/img/v3/home/app-illustrations/catawiki.svg"
+        alt="hello"
+      />
     </div>
     <div class="text">
       <h1>This is a Hero message!</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint mollitia accusantium obcaecati eum necessitatibus aut veniam, provident repellendus rem, tempora sit! Magni incidunt accusantium perspiciatis eaque culpa modi impedit dolores!</p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint mollitia
+        accusantium obcaecati eum necessitatibus aut veniam, provident
+        repellendus rem, tempora sit! Magni incidunt accusantium perspiciatis
+        eaque culpa modi impedit dolores!
+      </p>
     </div>
     <div style="height: 300px"></div>
     <section class="pa-4 my-4">
@@ -22,30 +30,49 @@
         >
           <v-layout column align-center>
             <v-avatar size="140" color="primary">
-              <v-icon size="96" dark>{{feature.icon}}</v-icon>
+              <v-icon size="96" dark>{{ feature.icon }}</v-icon>
             </v-avatar>
-            <h4 class="my-2">{{feature.title}}</h4>
-            <div class="body-2">{{feature.body}}</div>
+            <h4 class="my-2">{{ feature.title }}</h4>
+            <div class="body-2">{{ feature.body }}</div>
           </v-layout>
         </v-card>
       </v-layout>
     </section>
-    <section class="white--text" :style="{background: $vuetify.theme.themes['light'].primary}">
+    <section
+      class="white--text"
+      :style="{ background: $vuetify.theme.themes['light'].primary }"
+    >
       <v-container>
         <v-layout>
           <v-layout column>
             <div style="height: 170px"></div>
             <h1 class="mb-2">Our Mission</h1>
-            <p
-              style="max-width: 400px"
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptatem distinctio rerum. Fugiat maiores ab eos mollitia nemo corporis consequuntur labore ipsam excepturi ipsa fugit provident, tenetur praesentium minus beatae?</p>
-            <p
-              style="max-width: 400px"
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptatem distinctio rerum.</p>
+            <p style="max-width: 400px">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+              voluptatem distinctio rerum. Fugiat maiores ab eos mollitia nemo
+              corporis consequuntur labore ipsam excepturi ipsa fugit provident,
+              tenetur praesentium minus beatae?
+            </p>
+            <p style="max-width: 400px">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+              voluptatem distinctio rerum.
+            </p>
           </v-layout>
-          <v-layout column align-content-center justify-center style="min-height: 100%">
+          <v-layout
+            column
+            align-content-center
+            justify-center
+            style="min-height: 100%"
+          >
             <!-- <v-avatar size="340" style="border-color: white; border-width: 2px; border-style: solid"> -->
-                <v-img contain height="300" width="300" max-height="300" max-width="300" src="../assets/mission-image.svg" />
+            <v-img
+              contain
+              height="300"
+              width="300"
+              max-height="300"
+              max-width="300"
+              src="../assets/mission-image.svg"
+            />
             <!-- </v-avatar> -->
           </v-layout>
         </v-layout>
