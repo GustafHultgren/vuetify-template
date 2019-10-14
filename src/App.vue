@@ -24,13 +24,15 @@ export default {
 </script>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
 html,
 body {
   margin: 0;
   padding: 0;
+}
+
+#app {
   font-family: "Lato", sans-serif;
 }
-/* body {
-  font-family: "Open Sans", sans-serif;
-} */
 </style>

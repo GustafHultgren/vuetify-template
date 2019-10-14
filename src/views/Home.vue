@@ -23,7 +23,6 @@
         <v-card
           v-for="feature in features"
           :key="feature.title"
-          elevation="1"
           outlined
           width="360"
           class="pa-3 mx-5 text-center"
